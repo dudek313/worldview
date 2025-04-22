@@ -29,23 +29,26 @@ import { tryCatchDate } from '../date/util';
  * @returns {object} Extent Array
  */
 export function getLeadingExtent(loadtime) {
-  let curHour = loadtime.getUTCHours();
+  // Hardcoded these values to centre Australia on page loads
+  return [110.0, -45.0, 160.0, -10.0];
 
-  // For earlier hours when data is still being filled in, force a far eastern perspective
-  if (curHour < 3) {
-    curHour = 23;
-  } else if (curHour < 9) {
-    curHour = 0;
-  }
+  // let curHour = loadtime.getUTCHours();
 
-  // Compute east/west bounds
-  const minLon = 20.6015625 + curHour * (-200.53125 / 23.0);
-  const maxLon = minLon + 159.328125;
+  // // For earlier hours when data is still being filled in, force a far eastern perspective
+  // if (curHour < 3) {
+  //   curHour = 23;
+  // } else if (curHour < 9) {
+  //   curHour = 0;
+  // }
 
-  const minLat = -46.546875;
-  const maxLat = 53.015625;
+  // // Compute east/west bounds
+  // const minLon = 20.6015625 + curHour * (-200.53125 / 23.0);
+  // const maxLon = minLon + 159.328125;
 
-  return [minLon, minLat, maxLon, maxLat];
+  // const minLat = -46.546875;
+  // const maxLat = 53.015625;
+
+  // return [minLon, minLat, maxLon, maxLat];
 }
 
 export function getRotatedExtent(map) {
