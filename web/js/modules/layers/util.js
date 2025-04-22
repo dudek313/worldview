@@ -1582,7 +1582,7 @@ export function adjustEndDates(layers) {
     const futureEndDate = getFutureLayerEndDate(layer);
     layer.endDate = util.toISOStringSeconds(futureEndDate);
 
-    if (dateRanges.length) {
+    if (dateRanges && dateRanges.length) {
       const lastDateRange = dateRanges[dateRanges.length - 1];
       lastDateRange.endDate = util.toISOStringSeconds(futureEndDate);
     }
