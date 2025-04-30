@@ -59,7 +59,7 @@ class ModalStart extends React.Component {
         keyboard={false}
       >
         <ModalHeader toggle={endTour} close={closeBtn}>
-          Welcome to NASA @NAME@
+          Welcome to DCCEEW Worldview Beta
         </ModalHeader>
 
         <Scrollbars style={{ maxHeight: `${height - 200}px` }}>
