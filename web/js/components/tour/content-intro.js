@@ -8,13 +8,10 @@ function TourIntro(props) {
     <div className="tour-intro">
       <p className="intro">
         Visually explore the past and the present of this dynamic planet from a satellite&apos;s perspective.
-        Select from an array of stories below to learn more about @NAME@ (a part of
+        Select from an array of stories below to learn more about DCCEEW Worldview Beta, the satellite imagery we provide and events occurring around the NSW.
         {' '}
-        <a href="https://earthdata.nasa.gov/" target="_blank" rel="noreferrer">NASA Earthdata</a>
-        ), the satellite imagery we provide and events occurring around the world.
-        {' '}
-        <a href="#" title="Start using @NAME@" onClick={props.toggleModalStart} className="start-link">
-          Start using @NAME@
+        <a href="#" title="Start using DCCEEW Worldview Beta" onClick={props.toggleModalStart} className="start-link">
+          Start using DCCEEW Worldview Beta
           <ArrowLineRightCircleFill class="intro-arrow" size="16px" />
         </a>
       </p>
