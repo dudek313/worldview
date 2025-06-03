@@ -204,6 +204,7 @@
     "redux-thunk": "^3.1.0",
     "regenerator-runtime": "^0.14.1",
     "rgbcolor": "^1.0.1",
+    "run-s": "^0.0.0",
     "simplebar": "^6.3.0",
     "simplebar-react": "^3.3.0",
     "stackblur": "^1.0.0",

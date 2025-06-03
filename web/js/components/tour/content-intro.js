@@ -8,10 +8,10 @@ function TourIntro(props) {
     <div className="tour-intro">
       <p className="intro">
         Visually explore the past and the present of this dynamic planet from a satellite&apos;s perspective.
-        Select from an array of stories below to learn more about DCCEEW Worldview Beta, the satellite imagery we provide and events occurring around the NSW.
+        Select from an array of stories below to learn more about DCCEEW Worldview, the satellite imagery we provide and events occurring around the NSW.
         {' '}
-        <a href="#" title="Start using DCCEEW Worldview Beta" onClick={props.toggleModalStart} className="start-link">
-          Start using DCCEEW Worldview Beta
+        <a href="#" title="Start using NSW DCCEEW Worldview" onClick={props.toggleModalStart} className="start-link">
+          Start using NSW DCCEEW Worldview
           <ArrowLineRightCircleFill class="intro-arrow" size="16px" />
         </a>
       </p>

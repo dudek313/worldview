@@ -1,9 +1,9 @@
 {
     "packageName":  "worldview",
     "officialName": "DCCEEW Worldview Beta",
-    "longName":     "DCCEEW Worldview Beta (powered by NASA)",
+    "longName":     "DCCEEW Worldview beta",
     "shortName":    "Worldview",
     "description":  "Interactive satellite viewer",
-    "url":          "https://worldview.earthdata.nasa.gov/",
-    "email":        "support@earthdata.nasa.gov"
+    "url":          "https://d1oklerep38zqf.cloudfront.net/",
+    "email":        "cas-support@environment.nsw.gov.au"
 }
